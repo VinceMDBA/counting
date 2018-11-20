@@ -23,7 +23,7 @@ namespace app1
                 strRANDOM = null;
                 do
                 {
-                    strRANDOM = strRANDOM + (Char) random.Next(96, 122);
+                    strRANDOM = strRANDOM + (Char) random.Next(97, 122);
                     loop = loop + 1;
                 } while (loop <= 4);
 
