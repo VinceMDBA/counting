@@ -25,7 +25,7 @@ namespace app1
                 {
                     strRANDOM = strRANDOM + (Char) random.Next(97, 122);
                     loop = loop + 1;
-                } while (loop <= 10);
+                } while (loop <= 7);
 
                 System.Console.WriteLine($"index = {index}: random string: {strRANDOM}.");
                 index = index + 1;
